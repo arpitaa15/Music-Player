@@ -107,10 +107,6 @@ music.addEventListener("timeupdate", (event) =>{
     }
     let tot_currentTime = `${min_currentTime}:${sec_currentTime}`;
     current_time.textContent = `${tot_currentTime}`;
-
-    
-
-
 });
 
 //progress onclick functionality
@@ -125,8 +121,6 @@ progress_div.addEventListener("click", (event)=>{
 
 
     music.currentTime = move_progress;
-
-
 });
 
 //if music has ended, call next song
